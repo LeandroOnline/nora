@@ -1,9 +1,19 @@
 .background {
   background: #961fad;
   box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.4) inset;
+
+  color: var(--dark-fuxia, #9620df);
+  font-size: 24px;
+}
+
+button {
+  all: unset;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  color: var(--dark-fuxia, #9620DF);
-  font-size: 24px;
 }

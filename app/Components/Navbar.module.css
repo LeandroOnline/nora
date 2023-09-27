@@ -1,6 +1,9 @@
 .navContainer {
   margin: 64px;
+  display: flex;
   gap: 64px;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu {
@@ -16,4 +19,19 @@
   color: var(--dark-fuxia, #9620df);
   font-size: 64px;
   line-height: 56px;
+}
+
+.wspButton {
+  display: flex;
+  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 16px;
+  border: 2px solid #f9f2e8;
+  background: var(
+    --Gradient-button,
+    linear-gradient(93deg, #b800ff 0%, #0cf 100%)
+  );
+  color: white;
 }
