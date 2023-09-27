@@ -1,0 +1,19 @@
+.navContainer {
+  margin: 64px;
+  gap: 64px;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+}
+
+.link {
+  all: unset;
+}
+
+.title {
+  color: var(--dark-fuxia, #9620df);
+  font-size: 64px;
+  line-height: 56px;
+}

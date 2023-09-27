@@ -1,0 +1,22 @@
+.cardContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    box-sizing: border-box;
+}
+
+.bigcard {
+  border-radius: 32px;
+  border: 2px solid #fff;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  backdrop-filter: blur(15px);
+  height: 100%;
+  width: 100%;
+}
