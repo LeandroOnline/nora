@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className={style.navContainer}>
       <h1 className={style.title}>NORA</h1>
       <section className={style.menu}>
-        <Link href="/inicio" className={style.link}>
+        <Link href="/" className={style.link}>
           Inicio
         </Link>
         <Link href="/about" className={style.link}>

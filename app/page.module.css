@@ -1,3 +1,52 @@
-.main{
-  color: white;
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 64px;
+  padding: 32px;
+  margin: 32px;
+}
+
+.noraImg {
+  border-radius: 370px;
+  box-shadow: inset 0 0 1000px white, 0 0 100px white;
+  padding: 32px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 16px;
+  width: 516px;
+}
+
+.button {
+  border-radius: 16px;
+  border: 2px solid var(--light-Cream, #f9f2e8);
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 16px 32px;
+  width: 174px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.title {
+  font-size: 64px;
+}
+
+.subTitle {
+  font-size: 32px;
 }
