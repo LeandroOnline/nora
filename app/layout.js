@@ -1,4 +1,4 @@
-import Background from "./Components/Background";
+import Background from "./Components/BigCard";
 import "./globals.css";
 import { Dosis } from "next/font/google";
 

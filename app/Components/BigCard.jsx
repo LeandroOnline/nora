@@ -1,4 +1,4 @@
-import style from "./Background.module.css";
+import style from "./BigCard.module.css";
 import Navbar from "./Navbar";
 const Background = () => {
   return (
