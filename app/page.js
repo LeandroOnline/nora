@@ -4,7 +4,10 @@ import style from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={style.home}>
+    <main className={style.main}>
+      <Header />
+      <Header />
+      <Header />
       <Header />
       {/* <About /> */}
       {/* <Bio /> */}
