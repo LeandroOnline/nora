@@ -1,5 +1,4 @@
 import Navbar from "./Components/Navbar";
-import style from "./layout.module.css";
 import "./globals.css";
 import { Dosis } from "next/font/google";
 
@@ -13,11 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="Background">
-      <body className={`${dosis.className} ${style.cardContainer}`}>
-        <div className={style.bigcard}>
-          <Navbar />
-          {children}
-        </div>
+      <body className={dosis.className}>
+        <Navbar />
+        {/* background */}
+        {children}
       </body>
     </html>
   );
