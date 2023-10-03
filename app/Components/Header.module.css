@@ -40,7 +40,10 @@
   display: flex;
   justify-content: center;
   transition: 0.5s;
-  border: 2px solid var(--light-Cream, #f9f2e800);
+  border-top: 2px solid var(--light-Cream, #9620df);
+  border-bottom: 2px solid var(--light-Cream, #9620df);
+  border-left: 2px solid var(--light-Cream, #9620df00);
+  border-right: 2px solid var(--light-Cream, #9620df00);
 }
 
 .button:hover {
@@ -57,7 +60,9 @@
   display: flex;
   justify-content: center;
   transition: 0.5s;
-  border: 2px solid var(--light-Cream, #9620df);
+  border: 2px solid var(--light-Cream, #9620df00);
+  border-left: 2px solid var(--light-Cream, #9620df);
+  border-right: 2px solid var(--light-Cream, #9620df);
   color: #9620df;
 }
 
