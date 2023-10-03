@@ -6,7 +6,7 @@
   align-items: center;
   gap: 64px;
   color: var(--light-Cream, #f9f2e8);
-  background: linear-gradient(180deg, hsl(290, 69%, 30%), rgba(255, 255, 255, 0));
+  background: linear-gradient(180deg, hsla(290, 69%, 30%, 0.8), rgba(255, 255, 255, 0));
   backdrop-filter: blur(15px);
   position: fixed;
   left: 0;
