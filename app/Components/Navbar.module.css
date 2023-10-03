@@ -55,4 +55,5 @@
 .wspButton:hover {
   box-shadow: 0px 0px 40px 5px hsla(35, 59%, 94%, 0.5);
   transition: 0.5s;
+  cursor: pointer;
 }

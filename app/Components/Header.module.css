@@ -51,6 +51,7 @@
   transition: 0.5s;
   border: 2px solid var(--light-Cream, #f9f2e8);
   background: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
 }
 
 .buttonSecondary {
@@ -72,6 +73,7 @@
   border: 2px solid var(--light-Cream, #f9f2e8);
   background: rgba(255, 255, 255, 0.9);
   color: #9620df;
+  cursor: pointer;
 }
 
 .buttons {
