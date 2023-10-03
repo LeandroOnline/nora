@@ -14,7 +14,6 @@ export default function RootLayout({ children }) {
     <html lang="en" className="Background">
       <body className={dosis.className}>
         <Navbar />
-        {/* background */}
         {children}
       </body>
     </html>

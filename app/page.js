@@ -6,12 +6,8 @@ export default function Home() {
   return (
     <main className={style.main}>
       <Header />
-      <Header />
-      <Header />
-      <Header />
       {/* <About /> */}
-      {/* <Bio /> */}
-      {/* <Therapy /> */}
+      {/* me conviene usar el back aca para aplicar parallax mas facil */}
     </main>
   );
 }

@@ -4,6 +4,7 @@
   width: fit-content;
   gap: 64px;
   margin-top: 143px;
+  z-index: 50;
 }
 
 .noraImg {
@@ -18,8 +19,10 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  z-index: -10;
+  z-index: -1;
   filter: blur(15px);
+  object-fit: cover;
+  opacity: 70%;
 }
 
 .textContainer {
