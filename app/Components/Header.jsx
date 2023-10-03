@@ -6,6 +6,14 @@ const Header = () => {
     <div className="allscreen">
       <div className={`bigcard ${style.container}`}>
         <Image
+          src="/images/chakana-hotel-boutique-logo-clear-Tamano-Original.png"
+          alt="nora"
+          width={1000}
+          height={1000}
+          style={{objectFit: "cover"}}
+          className={style.backImg}
+        />
+        <Image
           src="/images/Nora.png"
           alt="nora"
           width={500}
@@ -18,7 +26,9 @@ const Header = () => {
             Te acompaño en tu camino de descubrimiento, sanación y consciencia.
           </h2>
           <div className={style.buttons}>
-            <button className={style.buttonSecondary}>Terapias Holisticas</button>
+            <button className={style.buttonSecondary}>
+              Terapias Holisticas
+            </button>
             <button className={style.button}>Decodificacion</button>
           </div>
         </div>
