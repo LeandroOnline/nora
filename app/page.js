@@ -5,6 +5,9 @@ import style from "./page.module.css";
 export default function Home() {
   return (
     <main className={style.main}>
+      
+      <Header />
+      <Header />
       <Header />
       {/* <About /> */}
       {/* me conviene usar el back aca para aplicar parallax mas facil */}
