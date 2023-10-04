@@ -7,9 +7,7 @@ export default function Home() {
     <main className={style.main}>
       
       <Header />
-      <Header />
-      <Header />
-      {/* <About /> */}
+      <About />
       {/* me conviene usar el back aca para aplicar parallax mas facil */}
     </main>
   );
