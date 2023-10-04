@@ -55,6 +55,8 @@ button {
   margin: 64px;
   align-items: center;
   justify-content: center;
+  max-width: 1196px;
+
 }
 
 .allscreen {

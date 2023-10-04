@@ -5,7 +5,7 @@ const About = () => {
       <h1 className={style.title}>Acerca de Mi</h1>
       <div className={`bigcard ${style.container}`}>
         <div className={style.allText}>
-          <h2>Hola soy Nora Benito</h2>
+          <h2>👋 Hola soy Nora Benito</h2>
           <p className={style.text}>
             Terapeuta Holística, y Decodificadora Bioemocional, consultora en
             Bioexistencia Consciente – Reorixins perteneciente a Humano Puente.
