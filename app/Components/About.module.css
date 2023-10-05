@@ -4,7 +4,6 @@
   width: fit-content;
   gap: 64px;
   z-index: 50;
-  align-items: start;
 }
 
 .allAbout {
@@ -30,7 +29,7 @@
   width: 200px;
   border-radius: 16px;
   border: 2px solid #f9f2e8;
-  box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 40px rgba(255, 255, 255);
 }
 
 .title {

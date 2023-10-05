@@ -1,8 +1,8 @@
 import style from "./About.module.css";
 const About = () => {
   return (
-    <div className={`allscreen ${style.allAbout}`}>
-      <h1 className={style.title}>Acerca de Mi</h1>
+    <div className="allscreen allContainer">
+      <h1 className="title">Acerca de Mi</h1>
       <div className={`bigcard ${style.container}`}>
         <div className={style.allText}>
           <h2>👋 Hola soy Nora Benito</h2>

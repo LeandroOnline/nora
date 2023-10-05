@@ -1,0 +1,22 @@
+.allDecode {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #f9f2e8;
+  text-shadow: 0px 0px 80px rgba(0, 0, 0);
+}
+
+.bridge {
+  height: 100%;
+  width: auto;
+  border: 2px solid #f9f2e8;
+  box-shadow: 0px 0px 40px rgba(255, 255, 255);
+  border-radius: 16px;
+}
+
+.allText{
+    height: 100%;
+    overflow-y: scroll;
+}
