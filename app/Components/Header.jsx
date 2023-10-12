@@ -1,5 +1,6 @@
 import Image from "next/image";
 import style from "./Header.module.css";
+import "../globals.css";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
           alt="nora"
           width={1000}
           height={1000}
-          style={{objectFit: "cover"}}
+          style={{ objectFit: "cover" }}
           className={style.backImg}
         />
         <Image
@@ -25,11 +26,9 @@ const Header = () => {
           <h2 className={style.subTitle}>
             Te acompaño en tu camino de descubrimiento, sanación y consciencia.
           </h2>
-          <div className={style.buttons}>
-            <button className={style.buttonSecondary}>
-              Terapias Holisticas
-            </button>
-            <button className={style.button}>Decodificacion</button>
+          <div className="buttons">
+            <button className="buttonSecondary">Terapias Holisticas</button>
+            <button className="button">Decodificacion</button>
           </div>
         </div>
       </div>

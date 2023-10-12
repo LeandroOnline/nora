@@ -9,7 +9,7 @@
   background-size: 500% 500%;
   animation: gradient 15s ease infinite;
   height: 100%;
-  background-color: #961fad;
+  background-color: rgba(149, 31, 173, 0.5);
   color: var(--dark-fuxia, #9620df);
   font-size: 16px;
 }
@@ -47,7 +47,6 @@ button {
     rgba(255, 255, 255, 0.2) 100%
   );
   backdrop-filter: blur(15px);
-  /* height: calc(100vh - 256px - 98px); */
   box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.6),
     0px 0px 40px 0px rgba(255, 255, 255, 0.6) inset;
   padding: 64px;
@@ -77,4 +76,75 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.button {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 16px 32px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  border-top: 2px solid var(--light-Cream, #9620df);
+  border-bottom: 2px solid var(--light-Cream, #9620df);
+  border-left: 2px solid var(--light-Cream, #9620df00);
+  border-right: 2px solid var(--light-Cream, #9620df00);
+}
+
+.button:hover {
+  box-shadow: 0px 0px 100px 10px hsla(35, 59%, 94%, 0.5);
+  transition: 0.5s;
+  border: 2px solid var(--light-Cream, #f9f2e8);
+  background: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
+
+.buttonSecondary {
+  border-radius: 16px;
+  padding: 16px 32px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  border: 2px solid var(--light-Cream, #9620df00);
+  border-left: 2px solid var(--light-Cream, #9620df);
+  border-right: 2px solid var(--light-Cream, #9620df);
+  color: #9620df;
+}
+
+.buttonSecondary:hover {
+  box-shadow: 0px 0px 100px 10px hsla(35, 59%, 94%, 0.5);
+  transition: 0.5s;
+  border: 2px solid var(--light-Cream, #f9f2e8);
+  background: rgba(255, 255, 255, 0.9);
+  color: #9620df;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  width: 100%;
+}
+
+/* Estilo global para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 4px; /* Ancho de la barra de desplazamiento */
+  height: 0px;
+}
+
+/* Estilo de la barra de desplazamiento en WebKit (Chrome y Safari) */
+::-webkit-scrollbar-thumb {
+  /* Color de la barra de desplazamiento */
+  background-color: rgba(149, 31, 173, 0.5);
+  border-radius: 4px; /* Borde redondeado */
+  padding: 4px;
+}
+
+/* Estilo de la barra de desplazamiento en Firefox */
+* {
+  scrollbar-width: thin; /* Ancho de la barra de desplazamiento en Firefox */
+  scrollbar-color: rgba(149, 31, 173, 0.5) #f1f1f17b; /* Color de la barra de desplazamiento en Firefox */
 }
