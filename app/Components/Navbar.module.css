@@ -48,7 +48,6 @@
   gap: 8px;
   border-radius: 16px;
   border: 2px solid #f9f2e8;
-  background: linear-gradient(93deg, #b800ff 0%, #0cf 100%);
   color: white;
   transition: 0.5s;
 }
