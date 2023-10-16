@@ -57,7 +57,6 @@
     0px 0px 100px 100px hsla(35, 59%, 94%) inset;
   transition: 0.5s;
   cursor: pointer;
-  background: linear-gradient(93deg, #b800ff 0%, #0cf 100%);
   border: 2px solid var(--light-Cream, #f9f2e8);
   color: #9620df;
 }
