@@ -42,11 +42,18 @@ const Decode = () => {
           </div>
           <div className="buttons">
             <a
-              className="buttonSecondary"
+              // className="buttonSecondary"
+              className="instagram"
               target="_blank"
               href="https://www.instagram.com/nora.bioconsultora/?hl=es"
             >
-              @nora.bioconsultora
+              <Image
+                src="/images/instagram.png"
+                alt="puente"
+                width={30}
+                height={30}
+              />
+              <p> @nora.bioconsultora </p>
             </a>
             <button className="button">Solicitar</button>
           </div>

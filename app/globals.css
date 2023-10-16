@@ -148,3 +148,22 @@ button {
   scrollbar-width: thin; /* Ancho de la barra de desplazamiento en Firefox */
   scrollbar-color: rgba(149, 31, 173, 0.5) #f1f1f17b; /* Color de la barra de desplazamiento en Firefox */
 }
+
+.instagram {
+  color: #9620df;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.5s;
+}
+
+.instagram p {
+  color: #9620df;
+  border-bottom: solid 2px #9620df;
+}
+
+.instagram:hover {
+  filter: brightness(1000%);
+  transition: 0.5s;
+  text-shadow: 0px 0px 50px black;
+}
