@@ -9,7 +9,7 @@ const Therapy = () => {
     <div className="allscreen allContainer">
       <h1 className="title">Decodificación Bioemocional</h1>
       <div className="bigcard">
-        <div>
+        <div className={style.category}>
           <button
             className={
               state === "therapy" ? style.buttonActive : style.buttonInactive
