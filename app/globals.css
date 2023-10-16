@@ -91,22 +91,6 @@ button {
   color: #9620df;
 }
 
-.buttonSecondary:hover {
-  box-shadow: 0px 0px 100px 10px hsla(35, 59%, 94%, 0.5);
-  transition: 0.5s;
-  border: 2px solid var(--light-Cream, #f9f2e8);
-  background: rgba(255, 255, 255, 0.9);
-  color: #9620df;
-  cursor: pointer;
-}
-
-.buttons {
-  display: flex;
-  gap: 32px;
-  margin-top: 32px;
-  width: 100%;
-}
-
 /* Estilo global para la barra de desplazamiento */
 ::-webkit-scrollbar {
   width: 4px; /* Ancho de la barra de desplazamiento */
@@ -168,4 +152,20 @@ button {
   background: linear-gradient(93deg, #b800ff 0%, #0cf 100%);
   border: 2px solid var(--light-Cream, #f9f2e8);
   color: #9620df;
+}
+
+.buttonSecondary:hover {
+  box-shadow: 0px 0px 15px 5px hsla(0, 0%, 0%, 0.1),
+    0px 0px 100px 100px hsla(35, 59%, 94%) inset;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 2px solid var(--light-Cream, #f9f2e8);
+  color: #9620df;
+}
+
+.buttons {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  width: 100%;
 }
