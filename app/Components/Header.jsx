@@ -28,7 +28,7 @@ const Header = () => {
           </h2>
           <div className="buttons">
             <button className="buttonSecondary">Terapias Holisticas</button>
-            <button className="button">Decodificacion</button>
+            <button className="primaryBtn">Decodificacion</button>
           </div>
         </div>
       </div>

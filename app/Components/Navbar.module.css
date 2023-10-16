@@ -6,7 +6,11 @@
   align-items: center;
   gap: 64px;
   color: var(--light-Cream, #f9f2e8);
-  background: linear-gradient(180deg, hsla(0, 0%, 0%, 0.5), rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 0%, 0.5),
+    rgba(255, 255, 255, 0)
+  );
   backdrop-filter: blur(15px);
   position: fixed;
   left: 0;
@@ -44,16 +48,17 @@
   gap: 8px;
   border-radius: 16px;
   border: 2px solid #f9f2e8;
-  background: var(
-    --Gradient-button,
-    linear-gradient(93deg, #b800ff 0%, #0cf 100%)
-  );
+  background: linear-gradient(93deg, #b800ff 0%, #0cf 100%);
   color: white;
   transition: 0.5s;
 }
 
 .wspButton:hover {
-  box-shadow: 0px 0px 40px 5px hsla(35, 59%, 94%, 0.5);
+  box-shadow: 0px 0px 15px 5px hsla(0, 0%, 0%, 0.1),
+    0px 0px 100px 100px hsla(35, 59%, 94%) inset;
   transition: 0.5s;
   cursor: pointer;
+  background: linear-gradient(93deg, #b800ff 0%, #0cf 100%);
+  border: 2px solid var(--light-Cream, #f9f2e8);
+  color: #9620df;
 }

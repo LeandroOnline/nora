@@ -55,7 +55,7 @@ const Decode = () => {
               />
               <p> @nora.bioconsultora </p>
             </a>
-            <button className="button">Solicitar</button>
+            <button className="primaryBtn">Solicitar</button>
           </div>
         </div>
       </div>

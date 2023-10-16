@@ -1,6 +1,7 @@
 import About from "./Components/About";
 import Decode from "./Components/Decode";
 import Header from "./Components/Header";
+import Therapy from "./Components/Therapy";
 import style from "./page.module.css";
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
       <Header />
       <About />
       <Decode />
-      {/* me conviene usar el back aca para aplicar parallax mas facil */}
+      <Therapy />
     </main>
   );
 }
