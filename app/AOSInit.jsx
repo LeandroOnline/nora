@@ -1,13 +1,10 @@
 "use client";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
+AOS.init();
 const AOSinit = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return null;
 };
 
