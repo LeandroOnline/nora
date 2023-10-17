@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 import style from "./Therapy.module.css";
+import Image from "next/image";
+import textFromTherapy from "@/utils/textsFromTherapy";
 
 const Therapy = () => {
   const [state, setState] = useState("therapy");
@@ -50,6 +52,19 @@ const Therapy = () => {
           >
             Reiki Master
           </button>
+        </div>
+        <div className={style.details}>
+          <Image
+            src={`/images/${state}.jpg`}
+            width={1000}
+            height={1000}
+            alt="category"
+            className={style.imgCategory}
+          />
+          <div className={style.card}>
+            <div className={style.cardText}>{textFromTherapy[0]}</div>
+            <button className="primaryBtn">Solicitar</button>
+          </div>
         </div>
       </div>
     </div>
