@@ -52,6 +52,19 @@ const Therapy = () => {
           >
             Reiki Master
           </button>
+          <a
+            className="instagram"
+            target="_blank"
+            href="https://www.instagram.com/shanti.merlo/"
+          >
+            <Image
+              src="/images/instagram.png"
+              alt="puente"
+              width={30}
+              height={30}
+            />
+            <p> @shanti.merlo </p>
+          </a>
         </div>
         <div className={style.details}>
           <Image

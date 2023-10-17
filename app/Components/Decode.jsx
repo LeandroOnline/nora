@@ -42,7 +42,6 @@ const Decode = () => {
           </div>
           <div className="buttons">
             <a
-              // className="buttonSecondary"
               className="instagram"
               target="_blank"
               href="https://www.instagram.com/nora.bioconsultora/?hl=es"
