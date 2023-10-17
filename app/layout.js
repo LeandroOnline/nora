@@ -1,4 +1,3 @@
-import AOSinit from "./AOSinit";
 import Navbar from "./Components/Navbar";
 import "./globals.css";
 import { Dosis } from "next/font/google";
@@ -15,7 +14,6 @@ export default function RootLayout({ children }) {
     <html lang="en" className="Background">
       <body className={dosis.className}>
         <Navbar />
-        <AOSinit />
         {children}
       </body>
     </html>

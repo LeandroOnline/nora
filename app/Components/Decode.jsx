@@ -4,7 +4,7 @@ import "../globals.css";
 
 const Decode = () => {
   return (
-    <div className="allscreen allContainer" id="decode" data-aos="fade-up">
+    <div className="allscreen allContainer" id="decode">
       <h1 className="title">Decodificación Bioemocional</h1>
       <div className="bigcard">
         <Image
