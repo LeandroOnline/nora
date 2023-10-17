@@ -62,7 +62,7 @@ const Therapy = () => {
             className={style.imgCategory}
           />
           <div className={style.card}>
-            <div className={style.cardText}>{textFromTherapy[0]}</div>
+            <div className={style.cardText}>{textFromTherapy[state]}</div>
             <button className="primaryBtn">Solicitar</button>
           </div>
         </div>
