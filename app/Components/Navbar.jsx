@@ -10,13 +10,13 @@ const Navbar = () => {
         <Link href="/" className={style.link}>
           Inicio
         </Link>
-        <Link href="#about" className={style.link}>
+        <Link href="/#about" className={style.link}>
           Acerca de Mi
         </Link>
-        <Link href="#decode" className={style.link}>
+        <Link href="/#decode" className={style.link}>
           Decodificacion
         </Link>
-        <Link href="#therapy" className={style.link}>
+        <Link href="/#therapy" className={style.link}>
           Terapias Holisticas
         </Link>
       </section>

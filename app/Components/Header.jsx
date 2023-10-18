@@ -1,6 +1,7 @@
 import Image from "next/image";
 import style from "./Header.module.css";
 import "../globals.css";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -27,8 +28,8 @@ const Header = () => {
             Te acompaño en tu camino de descubrimiento, sanación y consciencia.
           </h2>
           <div className="buttons">
-            <button className="buttonSecondary">Terapias Holisticas</button>
-            <button className="primaryBtn">Decodificacion</button>
+            <Link href='#therapy' className="buttonSecondary">Terapias Holisticas</Link>
+            <Link href='#decode' className="primaryBtn">Decodificacion</Link>
           </div>
         </div>
       </div>
