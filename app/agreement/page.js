@@ -1,15 +1,8 @@
 const Agreement = () => {
   return (
-    <div>
-        <p>dsfl;adsgfdasgdasgfsdgadsgdsgdsagdaagsdsfl;adsgfdasgdasgfsdgadsgdsgdsagdaagsdsfl;adsgfdasgdasgfsdgadsgdsgdsagdaagsdsfl;adsgfdasgdasgfsdgadsgdsgdsagdaags
-        dsfl;adsgfdasgdasgfsdgadsgdsgdsagdaagsdsfl;adsgfdasgdasgfsdgadsgdsgdsagdaagsdsfl;adsgfdasgdasgfsdgadsgdsgdsagdaags
-        dsfl;adsgfdasgdasgfsdgadsgdsgdsagdaagsdsfl;adsgfdasgdasgfsdgadsgdsgdsagdaagsdsfl;adsgfdasgdasgfsdgadsgdsgdsagdaags
-        dsfl;adsgfdasgdasgfsdgadsgdsgdsagdaagsdsfl;adsgfdasgdasgfsdgadsgdsgdsagdaagsdsfl;adsgfdasgdasgfsdgadsgdsgdsagdaags
-        dsfl;adsgfdasgdasgfsdgadsgdsgdsagdaagsdsfl;adsgfdasgdasgfsdgadsgdsgdsagdaags
-        dsfl;adsgfdasgdasgfsdgadsgdsgdsagdaagsdsfl;adsgfdasgdasgfsdgadsgdsgdsagdaags
-
-        </p>
+    <div className="allscreen">
+      <div className="bigcard"></div>
     </div>
-  )
-}
-export default Agreement
+  );
+};
+export default Agreement;

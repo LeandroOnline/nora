@@ -1,6 +1,5 @@
 import Image from "next/image";
 import style from "./Header.module.css";
-import "../globals.css";
 import Link from "next/link";
 
 const Header = () => {

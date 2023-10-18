@@ -1,6 +1,5 @@
 import Image from "next/image";
 import style from "./Decode.module.css";
-import "../globals.css";
 
 const Decode = () => {
   return (
