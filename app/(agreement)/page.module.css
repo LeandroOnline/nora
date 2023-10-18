@@ -1,0 +1,14 @@
+.inputName {
+  width: 100%;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form {
+  display: flex;
+  gap: 32px;
+}
