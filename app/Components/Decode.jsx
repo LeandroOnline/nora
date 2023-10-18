@@ -1,5 +1,6 @@
 import Image from "next/image";
 import style from "./Decode.module.css";
+import Link from "next/link";
 
 const Decode = () => {
   return (
@@ -53,7 +54,9 @@ const Decode = () => {
               />
               <p> @nora.bioconsultora </p>
             </a>
-            <button className="primaryBtn">Solicitar</button>
+            <Link href="/acuerdo-bio" className="primaryBtn">
+              Solicitar
+            </Link>
           </div>
         </div>
       </div>

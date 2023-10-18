@@ -118,7 +118,6 @@ button {
   gap: 8px;
   transition: 0.5s;
   text-align: center;
-  width: 100%;
   justify-content: center;
 }
 
