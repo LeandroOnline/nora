@@ -57,6 +57,7 @@ button {
   justify-content: center;
   max-width: 1196px;
   max-height: 540px;
+  box-sizing: border-box;
 }
 
 .allscreen {

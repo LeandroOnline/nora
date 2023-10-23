@@ -1,3 +1,26 @@
+.biggerCard {
+  border-radius: 32px;
+  border: 2px solid #fff;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.6),
+    0px 0px 40px 0px rgba(255, 255, 255, 0.6) inset;
+  padding: 64px;
+  display: flex;
+  margin: 64px;
+  margin-top: 96px;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  max-width: 1196px;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
 .inputName {
   width: 100%;
 }
@@ -10,5 +33,50 @@
 
 .form {
   display: flex;
+  flex-direction: column;
   gap: 32px;
+  width: 100%;
+  height: 100%;
 }
+
+.data {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.textarea {
+  all: unset;
+  border: none;
+  outline: none;
+  padding: 16px;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.consent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.allWidth {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap:32px;
+  flex-wrap: wrap;
+}
+
+.buttonWith {
+  width: fit-content;
+}
+
+/* .consent button{
+  margin: auto;
+} */
