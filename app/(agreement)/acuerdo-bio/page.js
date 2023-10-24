@@ -35,64 +35,60 @@ const Agreement = () => {
   };
 
   return (
-    <div className="allscreen">
-      <div className={style.biggerCard}>
-        <div className={style.form}>
-          <div className={style.data}>
-            <div className={style.inputContainer}>
-              <h4>Nombre completo</h4>
-              <input
-                placeholder="..."
-                className={style.inputName}
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </div>
-            <div className={style.inputContainer}>
-              <h4>Fecha de nacimiento</h4>
-              <input
-                placeholder="**/**/****"
-                className={style.inputName}
-                value={date}
-                onChange={(e) => setDate(e.target.value)}
-              />
-            </div>
-            <div className={style.inputContainer}>
-              <h4>Modalidad</h4>
-              <select
-                className={style.select}
-                name="option"
-                value={option}
-                onChange={(e) => setOption(e.target.value)}
-              >
-                <option value="">▾ Seleccionar</option>
-                <option value="Online">▾ Online</option>
-                <option value="Presencial">▾ Presencial</option>
-              </select>
-            </div>
-          </div>
-          <div className={style.inputContainer}>
-            <h4>Sintomas</h4>
-            <textarea
-              className={style.textarea}
-              name="text"
-              value={sintoma}
-              onChange={(e) => setSintoma(e.target.value)}
-            ></textarea>
-          </div>
-          <div className={style.consent}>
-            <h4>FORMULARIO DE CONSENTIMIENTO PARA INICIO DE CONSULTA</h4>
-            <p>{confirm}</p>
-          </div>
-          <div className={style.allWidth}>
-            <button
-              className={`primaryBtn ${style.buttonWith}`}
-              onClick={() => sendWsp()}
-            >
-              Aceptar y enviar solicitud
-            </button>
-          </div>
+    <div className={style.form}>
+      <div className={style.data}>
+        <div className={style.inputContainer}>
+          <h4>Nombre completo</h4>
+          <input
+            placeholder="..."
+            className={style.inputName}
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
         </div>
+        <div className={style.inputContainer}>
+          <h4>Fecha de nacimiento</h4>
+          <input
+            placeholder="**/**/****"
+            className={style.inputName}
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
+          />
+        </div>
+        <div className={style.inputContainer}>
+          <h4>Modalidad</h4>
+          <select
+            className={style.select}
+            name="option"
+            value={option}
+            onChange={(e) => setOption(e.target.value)}
+          >
+            <option value="">▾ Seleccionar</option>
+            <option value="Online">▾ Online</option>
+            <option value="Presencial">▾ Presencial</option>
+          </select>
+        </div>
+      </div>
+      <div className={style.inputContainer}>
+        <h4>Sintomas</h4>
+        <textarea
+          className={style.textarea}
+          name="text"
+          value={sintoma}
+          onChange={(e) => setSintoma(e.target.value)}
+        ></textarea>
+      </div>
+      <div className={style.consent}>
+        <h4>FORMULARIO DE CONSENTIMIENTO PARA INICIO DE CONSULTA</h4>
+        <p>{confirm}</p>
+      </div>
+      <div className={style.allWidth}>
+        <button
+          className={`primaryBtn ${style.buttonWith}`}
+          onClick={() => sendWsp()}
+        >
+          Aceptar y enviar solicitud
+        </button>
       </div>
     </div>
   );

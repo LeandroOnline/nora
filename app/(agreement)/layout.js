@@ -6,7 +6,9 @@ export const metadata = {
 export default function Agreement({ children }) {
   return (
     <div lang="en" className="Background">
-      {children}
+      <div className="allscreen">
+        <div className="biggerCard">{children}</div>
+      </div>
     </div>
   );
 }

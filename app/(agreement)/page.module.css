@@ -44,6 +44,14 @@
   gap: 32px;
   flex-wrap: wrap;
   width: 100%;
+  align-items: end;
+}
+
+.data2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
 }
 
 .textarea {
@@ -75,6 +83,7 @@
 
 .buttonWith {
   width: fit-content;
+  height: fit-content;
 }
 
 /* .consent button{

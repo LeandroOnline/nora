@@ -3,13 +3,14 @@ import { useState } from "react";
 import style from "./Therapy.module.css";
 import Image from "next/image";
 import textFromTherapy from "@/utils/textsFromTherapy";
+import Link from "next/link";
 
 const Therapy = () => {
   const [state, setState] = useState("therapy");
 
   return (
     <div className="allscreen allContainer" id="therapy">
-      <h1 className="title">Decodificación Bioemocional</h1>
+      <h1 className="title">Terapias Holisticas</h1>
       <div className="bigcard">
         <div className={style.category}>
           <button
@@ -18,7 +19,7 @@ const Therapy = () => {
             }
             onClick={() => setState("therapy")}
           >
-            Terapias Holisticas
+            Terapias Floral
           </button>
           <button
             className={
@@ -76,7 +77,9 @@ const Therapy = () => {
           />
           <div className={style.card}>
             <div className={style.cardText}>{textFromTherapy[state]}</div>
-            <button className="primaryBtn">Solicitar</button>
+            <Link href="/solicitud" className={`primaryBtn ${style.fullWidth}`}>
+              Solicitar Turno
+            </Link>
           </div>
         </div>
       </div>

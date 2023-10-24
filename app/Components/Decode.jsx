@@ -55,7 +55,7 @@ const Decode = () => {
               <p> @nora.bioconsultora </p>
             </a>
             <Link href="/acuerdo-bio" className="primaryBtn">
-              Solicitar
+              Solicitar Turno
             </Link>
           </div>
         </div>
