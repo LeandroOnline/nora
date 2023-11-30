@@ -1,7 +1,7 @@
 import style from "./About.module.css";
 const About = () => {
   return (
-    <div className="allscreen allContainer" id="about">
+    <div className="allscreen allContainer" id="about" data-aos="fade-up">
       <h1 className="title">Acerca de Mi</h1>
       <div className={`bigcard ${style.container}`}>
         <div className={style.allText}>

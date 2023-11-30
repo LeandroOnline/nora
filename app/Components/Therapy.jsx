@@ -9,7 +9,7 @@ const Therapy = () => {
   const [state, setState] = useState("therapy");
 
   return (
-    <div className="allscreen allContainer" id="therapy">
+    <div className="allscreen allContainer" id="therapy" data-aos="fade-up">
       <h1 className="title">Terapias Holisticas</h1>
       <div className="bigcard">
         <div className={style.category}>

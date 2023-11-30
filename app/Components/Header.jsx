@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="allscreen">
+    <div className="allscreen" data-aos="fade-up">
       <div className={`bigcard ${style.container}`}>
         <Image
           src="/images/chakana-hotel-boutique-logo-clear-Tamano-Original.png"
