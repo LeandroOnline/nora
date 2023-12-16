@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useEffect } from "react";
 import About from "./Components/About";
@@ -15,6 +15,7 @@ export default function Home() {
     AOS.init();
     AOS.refresh();
   }, []);
+
   return (
     <main className={style.main}>
       <Header />

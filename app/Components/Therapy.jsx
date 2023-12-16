@@ -6,7 +6,7 @@ import textFromTherapy from "@/utils/textsFromTherapy";
 import Link from "next/link";
 
 const Therapy = () => {
-  const [state, setState] = useState("therapy");
+  const [state, setState] = useState("Terapia Floral");
 
   return (
     <div className="allscreen allContainer" id="therapy" data-aos="fade-up">
@@ -15,41 +15,49 @@ const Therapy = () => {
         <div className={style.category}>
           <button
             className={
-              state === "therapy" ? style.buttonActive : style.buttonInactive
+              state === "Terapia Floral"
+                ? style.buttonActive
+                : style.buttonInactive
             }
-            onClick={() => setState("therapy")}
+            onClick={() => setState("Terapia Floral")}
           >
             Terapias Floral
           </button>
           <button
             className={
-              state === "number" ? style.buttonActive : style.buttonInactive
+              state === "Numerologia"
+                ? style.buttonActive
+                : style.buttonInactive
             }
-            onClick={() => setState("number")}
+            onClick={() => setState("Numerologia")}
           >
             Numerologia
           </button>
           <button
             className={
-              state === "tarot" ? style.buttonActive : style.buttonInactive
+              state === "Tarot Evolutivo"
+                ? style.buttonActive
+                : style.buttonInactive
             }
-            onClick={() => setState("tarot")}
+            onClick={() => setState("Tarot Evolutivo")}
           >
             Tarot Evolutivo
           </button>
           <button
             className={
-              state === "pendulum" ? style.buttonActive : style.buttonInactive
+              state === "Pendulo Hebreo"
+                ? style.buttonActive
+                : style.buttonInactive
             }
-            onClick={() => setState("pendulum")}
+            onClick={() => setState("Pendulo Hebreo")}
           >
             Pendulo Hebreo
           </button>
           <button
             className={
-              state === "reiki" ? style.buttonActive : style.buttonInactive
+              state === "Reiki" ? style.buttonActive : style.buttonInactive
             }
-            onClick={() => setState("reiki")}
+            onClick={() => setState("Reiki")}
           >
             Reiki Master
           </button>
@@ -70,14 +78,18 @@ const Therapy = () => {
         <div className={style.details}>
           <Image
             src={`/images/${state}.jpg`}
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
             alt="category"
+            loading="lazy"
             className={style.imgCategory}
           />
           <div className={style.card}>
             <div className={style.cardText}>{textFromTherapy[state]}</div>
-            <Link href="/solicitud" className={`primaryBtn ${style.fullWidth}`}>
+            <Link
+              href={`/solicitud/${state}`}
+              className={`primaryBtn ${style.fullWidth}`}
+            >
               Solicitar Turno
             </Link>
           </div>

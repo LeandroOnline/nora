@@ -22,11 +22,16 @@ const Decode = () => {
               La Decodificación Bioemocional es un método con base ciéntifica
               (Dr. Hamer y sus leyes biológicas) donde el síntoma es el que nos
               guía hacia las emociones que quedaron bloqueadas, que se vienen
-              repitiendo en nuestra historia causando dolor y sufrimiento. Es
-              por ello que vamos a buscar en nuestro tiempo presente iguales
-              vivencias, como así también en los primeros años de vida, en el
-              útero de mamá, para ir luego hacia atrás, hacia los ancestros,
-              para desprogramarlas completamente y poder sanar.
+              repitiendo en la historia, en forma anti – biológica, por ello
+              causa dolor y sufrimiento. Las buscaremos en el tiempo presente,
+              en la línea de tiempo contemporánea, iguales vivencias, como así
+              también antes de la gestación, en el útero de mamá, en el proyecto
+              sentido que originó la vida y poder ir luego hacia atrás, hacia
+              los ancestros, lo transgeneracional, lo que llamamos Reorixins, la
+              re interpretación del origen a través del síntoma, para comprende
+              el para qué sucede, para qué aparece esta dolencia y finalmente
+              desprogramarla, desactivar esos códigos y sanar profundamente la
+              realidad.
             </p>
             <br />
             <h3>
@@ -34,10 +39,16 @@ const Decode = () => {
               BIOEXISTENCIA CONSCIENTE?
             </h3>
             <p>
-              Sanar un síntoma, cambiar tu realidad, al desbloquear esas
-              emociones todo fluye, tomar consciencia, comprender y mejorar la
-              calidad de vida, para vos, tus ancestros y descendencia. Ese
-              camino profundo y real es la Bioexistencia Consciente
+              Sanar un síntoma, ese tema doloroso que está presente en la vida
+              es lo primero que vamos a liberar . Una mirada distinta a las
+              otras corrientes Bio, ya que la BIOEXISTENCIA CONSCIENTE, lo
+              considera como una aprendizaje, un cambio profundo para mejorar y
+              comprender el para qué está en mi vida y al desbloquear esas
+              emociones que quedaron atrapadas en el tiempo todo fluye, al tomar
+              consciencia, y mejorar la calidad de vida en todos sus aspectos.
+              Cada sesión es un puente a cruzar, es la llave al Ser Real,
+              conocimiento profundo, pura expansión de consciencia y libertad
+              creadora.
             </p>
           </div>
           <div className="buttons">

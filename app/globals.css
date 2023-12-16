@@ -152,8 +152,6 @@ button {
   justify-content: center;
   transition: 0.5s;
   border: 2px solid var(--light-Cream, #9620df);
-  /* border-left: 2px solid var(--light-Cream, #9620df); */
-  /* border-right: 2px solid var(--light-Cream, #9620df); */
   color: #9620df;
 }
 

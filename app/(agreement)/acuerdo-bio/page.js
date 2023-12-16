@@ -1,38 +1,13 @@
 "use client";
 import { useState } from "react";
 import style from "../page.module.css";
-
-const confirm =
-  "A través del presente consentimiento manifiesto mi voluntad, en búsqueda de bienestar emocional, mental y físico, como creador de mi realidad inicio consultas en Bioexistencia Consciente con al Consultora Nora Benito. Dicho encuentro será acorado por ambas partes presencial o virtual. Soy totalmente responsable de mi decisión. Estas consultas no reemplazan ni pretenden ser una práctica médica ni psiquiátrica. Se llevará a cabo de forma presencial o virtual en días y horarios a convenir previamente y con el pago previo a la consulta 48 horas antes, según lo  acordado. Expreso no tener patologías cardíacas, psiquiátricas como bipolaridad, depresión, esquizofrenia, ACV, y/o estar embarazada. En caso de tener algunos de estas condiciones se puede tratar mediante otra persona que concurrirá a la sesión y llamamos a través de un Tercero, ya que todos somos uno y al sanar él sanás vos también.";
+import { sendWsp } from "@/helpers/sendWsp";
 
 const Agreement = () => {
   const [name, setName] = useState("");
   const [date, setDate] = useState("");
   const [option, setOption] = useState("");
   const [sintoma, setSintoma] = useState("");
-
-  const wame = "https://wa.me/5493435267411?text=";
-  const sendWsp = () => {
-    const datePattern = /^\d{2}\/\d{2}\/\d{4}$/;
-    if (name !== "" && date !== "" && option !== "" && sintoma !== "") {
-      if (!date.match(datePattern)) {
-        alert("Por favor, ingresa una fecha en el formato DD/MM/AAAA válido.");
-        setDate("");
-      } else {
-        window.open(
-          `${wame}★ Solicitud de Biodecodificacion ★%0D%0A%0D%0A✦ Nombre:%20${name}%0D%0A✦ Fecha%20de%20Nacimiento:%20${date}%0D%0A✦ Modalidad:%20${option}%0D%0A✦ Síntomas:%20${sintoma}%20 %0D%0A✓ ${confirm}`,
-          "_blank"
-        );
-
-        setDate("");
-        setName("");
-        setOption("");
-        setSintoma("");
-      }
-    } else {
-      alert("Por favor, completa el formulario.");
-    }
-  };
 
   return (
     <div className={style.form}>
@@ -79,13 +54,38 @@ const Agreement = () => {
         ></textarea>
       </div>
       <div className={style.consent}>
-        <h4>FORMULARIO DE CONSENTIMIENTO PARA INICIO DE CONSULTA</h4>
-        <p>{confirm}</p>
+        <h4>MANIFIESTO DE CONFORMIDAD</h4>
+        <p>
+          En búsqueda de mi bienestar físico, mental y emocional manifiesto mi
+          voluntad de iniciar las consultas en Bioexistencia Consciente con la
+          Consultora NORA BENITO, siendo totalmente responsable de mi decisión,
+          sabiendo que dichas consultas no reemplazan ni pretenden ser una
+          práctica médica ni psiquiátrica. Manifiesto no tener patologías
+          cardíacas, ni psiquiátricas como bipolaridad, depresión ni
+          esquizofrenia, ni haber tenido ACV y/o estar cursando embarazo. Si
+          reconozco algunos de estas condiciones sé que un “tercero podrá
+          concurrir por mí a la sesión que se llama “Atención a través de un
+          tercero” ya que todos somos uno y al sanar él, sano yo, me comprometo
+          a avisar a la Consultora.
+        </p>
+        <p>
+          - Información: La sesión se llevará a cabo en forma virtual o
+          presencia, en día y horario a convenir por a las dos partes. Al
+          acordar la fecha de la consulta, se abonará el 50 % de la misma. En
+          caso de no poder asistir se debe avisar 48 hs. antes y la
+          reprogramaremos; de no hacerlo se perderá la seña.
+        </p>
       </div>
       <div className={style.allWidth}>
         <button
           className={`primaryBtn ${style.buttonWith}`}
-          onClick={() => sendWsp()}
+          onClick={() => {
+            sendWsp(name, date, option, sintoma, true);
+            setDate("");
+            setName("");
+            setOption("");
+            setSintoma("");
+          }}
         >
           Aceptar y enviar solicitud
         </button>
