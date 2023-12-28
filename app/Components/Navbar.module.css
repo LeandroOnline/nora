@@ -64,14 +64,38 @@
 .menuButton {
   display: none;
 }
+.xButton {
+  display: none;
+}
+.none {
+  display: none;
+}
 
 @media only screen and (max-width: 800px) {
+  .menuOff {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: absolute;
+    top: -1000px;
+    transition: 0.5s;
+    height: 100vh;
+    width: 100vw;
+  }
   .menu {
     display: flex;
     flex-direction: column;
     gap: 32px;
     position: absolute;
-    top: -300%;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 32px;
+    transition: 0.5s;
+    height: 100vh;
+    width: 100vw;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
   }
   .wspButton {
     border: none;
@@ -80,13 +104,15 @@
   .navContainer {
     gap: 32px;
   }
-  .menuButton {
+  .menuButton,
+  .xButton {
     display: flex;
     filter: invert();
     transition: 0.5s;
     padding: 2px;
   }
-  .menuButton:hover {
+  .menuButton:hover,
+  .xButton:hover {
     transition: 0.5s;
     padding: 0px;
     border-radius: 5px;
