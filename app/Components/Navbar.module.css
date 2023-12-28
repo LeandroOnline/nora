@@ -60,3 +60,35 @@
   border: 2px solid var(--light-Cream, #f9f2e8);
   color: #9620df;
 }
+
+.menuButton {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: absolute;
+    top: -300%;
+  }
+  .wspButton {
+    border: none;
+    padding: 0;
+  }
+  .navContainer {
+    gap: 32px;
+  }
+  .menuButton {
+    display: flex;
+    filter: invert();
+    transition: 0.5s;
+    padding: 2px;
+  }
+  .menuButton:hover {
+    transition: 0.5s;
+    padding: 0px;
+    border-radius: 5px;
+  }
+}
