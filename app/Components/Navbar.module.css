@@ -18,7 +18,7 @@
   z-index: 100;
 }
 
-.menu {
+.menu, .menuOff {
   display: flex;
   gap: 32px;
 }
