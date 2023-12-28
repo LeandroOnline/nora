@@ -65,4 +65,7 @@
   .noraImg{
     width: 100%;
   }
+  .container{
+    justify-content: space-between;
+  }
 }
