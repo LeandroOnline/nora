@@ -91,7 +91,7 @@
     background-color: rgba(0, 0, 0, 0.9);
     padding: 32px;
     transition: 0.5s;
-    height: 100vh;
+    height: calc(100vh - 100%);
     width: 100vw;
     font-size: 20px;
     justify-content: center;
