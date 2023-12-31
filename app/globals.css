@@ -107,6 +107,7 @@ button {
   transition: 0.5s;
   text-align: center;
   justify-content: center;
+  height: fit-content;
 }
 
 .instagram p {

@@ -11,7 +11,7 @@ const Therapy = () => {
   return (
     <div className="allscreen allContainer" id="therapy" data-aos="fade-up">
       <h1 className="title">Terapias Holisticas</h1>
-      <div className="bigcard">
+      <div className={`bigcard ${style.container}`}>
         <div className={style.category}>
           <button
             className={
