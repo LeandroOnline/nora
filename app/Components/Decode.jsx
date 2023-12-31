@@ -6,7 +6,7 @@ const Decode = () => {
   return (
     <div className="allscreen allContainer" id="decode" data-aos="fade-up">
       <h1 className="title">Decodificación Bioemocional</h1>
-      <div className="bigcard">
+      <div className={`bigcard ${style.allDecode}`}>
         <Image
           src="/images/puente.jpg"
           alt="puente"

@@ -61,7 +61,7 @@ button {
 }
 
 .allscreen {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -132,6 +132,7 @@ button {
   color: white;
   transition: 0.5s;
   width: 50%;
+  text-align: center;
 }
 
 .primaryBtn:hover {
