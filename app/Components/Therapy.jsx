@@ -55,9 +55,9 @@ const Therapy = () => {
           </button>
           <button
             className={
-              state === "Reiki" ? style.buttonActive : style.buttonInactive
+              state === "reiki" ? style.buttonActive : style.buttonInactive
             }
-            onClick={() => setState("Reiki")}
+            onClick={() => setState("reiki")}
           >
             Reiki Master
           </button>
