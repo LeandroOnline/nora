@@ -4,7 +4,7 @@ export const sendWsp = (
   option = "",
   sintoma = "",
   bio = false,
-  slug='',
+  slug = ""
 ) => {
   const wame = "https://wa.me/5493435267411?text=";
   const datePattern = /^\d{2}\/\d{2}\/\d{4}$/;
@@ -14,10 +14,15 @@ export const sendWsp = (
         alert("Por favor, ingresa una fecha en el formato DD/MM/AAAA válido.");
         setDate("");
       } else {
-        window.open(
-          `${wame}★ Solicitud de Biodecodificacion ★%0D%0A%0D%0A✦ Nombre:%20${name}%0D%0A✦ Fecha%20de%20Nacimiento:%20${date}%0D%0A✦ Modalidad:%20${option}%0D%0A✦ Síntomas:%20${sintoma}%20 %0D%0A✓ ${confirm}`,
-          "_blank"
-        );
+        const month = parseInt(date.split("/")[1], 10);
+        if (month < 1 || month > 12) {
+          alert("El mes debe estar en el rango de 1 a 12.");
+        } else {
+          window.open(
+            `${wame}★ Solicitud de Biodecodificacion ★%0D%0A%0D%0A✦ Nombre:%20${name}%0D%0A✦ Fecha%20de%20Nacimiento:%20${date}%0D%0A✦ Modalidad:%20${option}%0D%0A✦ Síntomas:%20${sintoma}%20 %0D%0A✓ ${confirm}`,
+            "_blank"
+          );
+        }
       }
     } else {
       alert("Por favor, completa el formulario.");

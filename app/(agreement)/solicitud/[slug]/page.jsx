@@ -8,6 +8,14 @@ const Page = ({ params }) => {
   const [date, setDate] = useState("");
   const [option, setOption] = useState("");
 
+  function handleDateChange(e) {
+    let value = e.target.value;
+    if (value.length === 2 || value.length === 5) {
+      value = value + "/";
+    }
+    setDate(value);
+  }
+
   return (
     <div className={style.data2}>
       <div className={style.inputContainer2}>
@@ -25,7 +33,7 @@ const Page = ({ params }) => {
           placeholder="**/**/****"
           className={style.inputName}
           value={date}
-          onChange={(e) => setDate(e.target.value)}
+          onChange={(e) => handleDateChange(e)}
         />
       </div>
       <div className={style.inputContainer2}>

@@ -9,6 +9,14 @@ const Agreement = () => {
   const [option, setOption] = useState("");
   const [sintoma, setSintoma] = useState("");
 
+  function handleDateChange(e) {
+    let value = e.target.value;
+    if (value.length === 2 || value.length === 5) {
+      value = value + "/";
+    }
+    setDate(value);
+  }
+
   return (
     <div className={style.form}>
       <div className={style.data}>
@@ -27,7 +35,7 @@ const Agreement = () => {
             placeholder="**/**/****"
             className={style.inputName}
             value={date}
-            onChange={(e) => setDate(e.target.value)}
+            onChange={(e) => handleDateChange(e)}
           />
         </div>
         <div className={style.inputContainer}>
