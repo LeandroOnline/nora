@@ -80,7 +80,7 @@ const Therapy = () => {
             src={`/images/${state}.jpg`}
             width={500}
             height={500}
-            alt="category"
+            alt={state}
             loading="lazy"
             className={style.imgCategory}
           />
