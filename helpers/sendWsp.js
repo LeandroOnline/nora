@@ -6,7 +6,7 @@ export const sendWsp = (
   bio = false,
   slug = ""
 ) => {
-  const wame = "https://wa.me/5493435267411?text=";
+  const wame = "https://wa.me/5491169068053?text=";
   const datePattern = /^\d{2}\/\d{2}\/\d{4}$/;
   if (bio) {
     if (name !== "" && date !== "" && option !== "" && sintoma !== "") {
