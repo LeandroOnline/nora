@@ -8,7 +8,9 @@ const Navbar = () => {
   const [state, setState] = useState(false);
   return (
     <nav className={style.navContainer}>
-      <h1 className={style.title}>NORA</h1>
+      <Link href="/" className={style.title}>
+        NORA
+      </Link>
 
       <Image
         className={state ? style.none : style.menuButton}
