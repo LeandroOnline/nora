@@ -47,10 +47,12 @@ const Navbar = () => {
           Terapias Holisticas
         </Link>
       </section>
-      <button className={style.wspButton}>
-        <Image src="/images/whatsapp.png" alt="wsp" width={27} height={27} />
-        WhatsApp
-      </button>
+      <Link href="https://wa.me/5491169068053?text=" target="_blanck">
+        <button className={style.wspButton}>
+          <Image src="/images/whatsapp.png" alt="wsp" width={27} height={27} />
+          WhatsApp
+        </button>
+      </Link>
     </nav>
   );
 };
