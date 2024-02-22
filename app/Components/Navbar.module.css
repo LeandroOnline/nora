@@ -5,10 +5,9 @@
   justify-content: center;
   align-items: center;
   gap: 64px;
-  color: var(--light-Cream, #f9f2e8);
   background: linear-gradient(
     180deg,
-    hsla(0, 0%, 0%, 0.5),
+    hsla(0, 0%, 100%, 1),
     rgba(255, 255, 255, 0)
   );
   backdrop-filter: blur(15px);
@@ -18,7 +17,8 @@
   z-index: 100;
 }
 
-.menu, .menuOff {
+.menu,
+.menuOff {
   display: flex;
   gap: 32px;
 }
@@ -36,7 +36,7 @@
 }
 
 .title {
-  color: var(--light-Cream, #f9f2e8);
+  /* color: var(--light-Cream, #f9f2e8); */
   font-size: 32px;
 }
 
@@ -47,8 +47,8 @@
   justify-content: center;
   gap: 8px;
   border-radius: 16px;
-  border: 2px solid #f9f2e8;
-  color: white;
+  border: 2px solid hsl(277, 100%, 30%);
+  /* background-color: hsl(127, 52%, 80%); */
   transition: 0.5s;
 }
 

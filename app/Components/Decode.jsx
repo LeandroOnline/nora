@@ -62,6 +62,7 @@ const Decode = () => {
                 alt="puente"
                 width={30}
                 height={30}
+                className="icon"
               />
               <p> @nora.bioconsultora </p>
             </a>
